@@ -19,7 +19,7 @@ public class CityController {
     private CityService cityService;
 
     @GetMapping
-    public Page<City> getCities(final Pageable pageable){
+    public Page<City> getCities(final Pageable  pageable){
         return cityService.getCities(pageable);
     }
 }

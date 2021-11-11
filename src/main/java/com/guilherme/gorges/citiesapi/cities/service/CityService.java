@@ -8,7 +8,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 
 @Service
 @AllArgsConstructor(onConstructor = @__(@Autowired))
@@ -16,12 +15,6 @@ public class CityService {
 
     private final CityRepository cityRepository;
 
-/*    //1st
-    public List<City> getCities(){
-        return cityRepository.findAll();
-    }*/
-
-    //2nd
     public Page<City> getCities(final Pageable pageable){
         return cityRepository.findAll(pageable);
     }
