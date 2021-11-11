@@ -33,10 +33,8 @@ public class State {
     @Column(name = "nome")
     private String name;
 
-    //@Column(name = "uf")
     private String uf;
 
-    //@Column(name = "ibge")
     private Integer ibge;
 
     // 2nd - @ManyToOne

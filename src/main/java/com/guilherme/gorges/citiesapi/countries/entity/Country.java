@@ -8,10 +8,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+@Data
+@NoArgsConstructor
 @Entity
 @Table(name = "pais")
-@NoArgsConstructor
-@Data
 public class Country {
 
     @Id
