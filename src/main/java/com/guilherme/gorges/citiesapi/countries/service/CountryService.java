@@ -15,7 +15,7 @@ import java.util.Optional;
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class CountryService {
 
-    private CountryRepository countryRepository;
+    private final CountryRepository countryRepository;
 
     public Page<Country> listAll(Pageable page) {
         return countryRepository.findAll(page);

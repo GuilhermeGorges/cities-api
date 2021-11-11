@@ -2,6 +2,8 @@ package com.guilherme.gorges.citiesapi.countries.controller;
 
 import com.guilherme.gorges.citiesapi.countries.entity.Country;
 import com.guilherme.gorges.citiesapi.countries.service.CountryService;
+import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/countries")
+@AllArgsConstructor(onConstructor = @__(@Autowired))
 public class CountryController {
 
     private CountryService countryService;
