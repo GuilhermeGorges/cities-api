@@ -1,4 +1,4 @@
-package com.guilherme.gorges.citiesapi.entity;
+package com.guilherme.gorges.citiesapi.country.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

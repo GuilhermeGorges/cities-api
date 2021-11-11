@@ -1,6 +1,6 @@
-package com.guilherme.gorges.citiesapi.repository;
+package com.guilherme.gorges.citiesapi.country.repository;
 
-import com.guilherme.gorges.citiesapi.entity.Country;
+import com.guilherme.gorges.citiesapi.country.entity.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 
