@@ -1,7 +1,7 @@
-package com.guilherme.gorges.citiesapi.country.controller;
+package com.guilherme.gorges.citiesapi.countries.controller;
 
-import com.guilherme.gorges.citiesapi.country.entity.Country;
-import com.guilherme.gorges.citiesapi.country.service.CountryService;
+import com.guilherme.gorges.citiesapi.countries.entity.Country;
+import com.guilherme.gorges.citiesapi.countries.service.CountryService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
-package com.guilherme.gorges.citiesapi.country.service;
+package com.guilherme.gorges.citiesapi.countries.service;
 
-import com.guilherme.gorges.citiesapi.country.entity.Country;
-import com.guilherme.gorges.citiesapi.country.repository.CountryRepository;
+import com.guilherme.gorges.citiesapi.countries.entity.Country;
+import com.guilherme.gorges.citiesapi.countries.repository.CountryRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -15,7 +15,6 @@ import java.util.Optional;
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class CountryService {
 
-    @Autowired
     private CountryRepository countryRepository;
 
     public Page<Country> listAll(Pageable page) {
