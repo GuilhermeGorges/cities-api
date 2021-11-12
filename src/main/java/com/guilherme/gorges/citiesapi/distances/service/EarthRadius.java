@@ -1,4 +1,4 @@
-package com.guilherme.gorges.citiesapi.cities.service;
+package com.guilherme.gorges.citiesapi.distances.service;
 
 public enum EarthRadius {
     METERS("m", 6378168),

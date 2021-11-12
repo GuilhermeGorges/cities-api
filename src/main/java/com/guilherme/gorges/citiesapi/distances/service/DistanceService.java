@@ -1,4 +1,4 @@
-package com.guilherme.gorges.citiesapi.cities.service;
+package com.guilherme.gorges.citiesapi.distances.service;
 
 import static java.lang.Math.atan2;
 import static java.lang.Math.cos;
